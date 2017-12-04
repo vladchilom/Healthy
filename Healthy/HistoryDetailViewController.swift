@@ -23,7 +23,7 @@ class HistoryDetailViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     dateFormatter.dateFormat = "MMM dd, yyyy"
-    nameLabel.text = food!.name
+    nameLabel.text = food!.name.components(separatedBy: ", UPC")[0]
     setNameLabelFont()
     caloriesLabel.text = String(food!.calories * food!.servings)
     proteinLabel.text = String(food!.protein  * food!.servings)

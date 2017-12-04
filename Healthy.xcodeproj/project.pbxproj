@@ -19,6 +19,7 @@
 		BF3FD8D81FD48DAB0090A8CD /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3FD8D71FD48DAB0090A8CD /* Search.swift */; };
 		BF3FD8DA1FD490610090A8CD /* Lookup.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3FD8D91FD490610090A8CD /* Lookup.swift */; };
 		BF7405111FD3C16E00949788 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF7405101FD3C16E00949788 /* GoogleService-Info.plist */; };
+		BF7EECCD1FD4B6B2002A106F /* HistoryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7EECCC1FD4B6B2002A106F /* HistoryViewCell.swift */; };
 		BF8B17841FD4107E00651A7E /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF15E06B1FD40B7B00D3E503 /* Food.swift */; };
 		BF8B17861FD4257D00651A7E /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8B17851FD4257D00651A7E /* TodayViewController.swift */; };
 /* End PBXBuildFile section */
@@ -40,6 +41,7 @@
 		BF3FD8D71FD48DAB0090A8CD /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
 		BF3FD8D91FD490610090A8CD /* Lookup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lookup.swift; sourceTree = "<group>"; };
 		BF7405101FD3C16E00949788 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BF7EECCC1FD4B6B2002A106F /* HistoryViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewCell.swift; sourceTree = "<group>"; };
 		BF8B17851FD4257D00651A7E /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		D0C0D3C080032C0FB90F3CAC /* Pods-Healthy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Healthy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Healthy/Pods-Healthy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,6 +93,7 @@
 				BF8B17851FD4257D00651A7E /* TodayViewController.swift */,
 				BF15E0611FD3C28000D3E503 /* HistoryViewController.swift */,
 				BF15E0631FD3C4F800D3E503 /* HistoryDetailViewController.swift */,
+				BF7EECCC1FD4B6B2002A106F /* HistoryViewCell.swift */,
 			);
 			path = Healthy;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				BF3FD8DA1FD490610090A8CD /* Lookup.swift in Sources */,
 				BF20D6611FD3B16C00519089 /* AppDelegate.swift in Sources */,
 				BF8B17841FD4107E00651A7E /* Food.swift in Sources */,
+				BF7EECCD1FD4B6B2002A106F /* HistoryViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
