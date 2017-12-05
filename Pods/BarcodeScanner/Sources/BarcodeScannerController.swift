@@ -144,9 +144,7 @@ open class BarcodeScannerController: UIViewController {
 
   /// Calculated frame for the info view.
   var infoFrame: CGRect {
-    let height = status.state != .processing ? 75 : view.bounds.height
-    return CGRect(x: 0, y: view.bounds.height - height,
-      width: view.bounds.width, height: height)
+    return CGRect(x: 0, y: 0, width: 0, height: 0)
   }
 
   /// When the flag is set to `true` controller returns a captured code
